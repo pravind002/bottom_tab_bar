@@ -48,7 +48,9 @@ Widget currebtScreen=const Homepage();
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-            Row(children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
               MaterialButton(onPressed: (){
                 setState(() {
                    currebtScreen=const Homepage();
@@ -89,7 +91,9 @@ Widget currebtScreen=const Homepage();
              ],
              
              ), 
-             Row(children: [
+             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
               MaterialButton(onPressed: (){
                 setState(() {
                   currebtScreen=const NotificationPage();
